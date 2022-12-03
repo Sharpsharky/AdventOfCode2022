@@ -1,8 +1,6 @@
-﻿using System;
-
-namespace AdventOfCode2022.Task2
+﻿namespace AdventOfCode2022.Task2
 {
-    class Task2 : ITaskExecutable
+    abstract class Task2 : AdventTask
     {
         public void Execute()
         {
