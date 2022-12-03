@@ -1,12 +1,16 @@
-﻿using System;
-
-namespace AdventOfCode2022
+﻿namespace AdventOfCode2022
 {
-    class Program
+    using System;
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Task1.Task1 task1 = new Task1.Task1();
+            task1.Execute();
+
+            Task2.Task2 task2 = new Task2.Task2();
+            task2.Execute();
+
         }
     }
 }
