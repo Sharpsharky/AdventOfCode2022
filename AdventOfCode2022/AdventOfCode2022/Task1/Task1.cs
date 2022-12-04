@@ -4,9 +4,9 @@
     {
         private List<int> elvesCalories = new List<int>();
         
-        public void Execute()
+        public override void Execute()
         {
-            Console.WriteLine($"Hello World {this}");
+            base.Execute();
             ReadElvesCalories();
         }
         

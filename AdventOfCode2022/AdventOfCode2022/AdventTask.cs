@@ -1,6 +1,6 @@
 ﻿namespace AdventOfCode2022
 {
-    public class AdventTask
+    public abstract class AdventTask
     {
         public virtual void Execute()
         {
